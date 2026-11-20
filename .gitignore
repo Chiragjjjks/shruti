@@ -1,0 +1,15 @@
+.gradle/
+build/
+/app/build/
+local.properties
+.idea/
+*.iml
+.DS_Store
+captures/
+*.keystore
+*.jks
+/dist/
+# Your own book files are never committed — they only go into the APK you build locally.
+/bundle/books/**/*
+!/bundle/books/**/
+!/bundle/books/**/.gitkeep
